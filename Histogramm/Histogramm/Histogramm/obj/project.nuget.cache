@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UuPHW3b7Fe4nNmg6TY7lRrHSEyomJYjvF5OV/McDtAfT9yR96h/1sFO0A6YUpa6XQz3eBUBjKAoGvQhT35Z3VA==",
+  "success": true,
+  "projectFilePath": "E:\\VKRproj\\Histogramm\\Histogramm\\Histogramm\\Histogramm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maro4_000\\.nuget\\packages\\system.io.ports\\5.0.1\\system.io.ports.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

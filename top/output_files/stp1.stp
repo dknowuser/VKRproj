@@ -1,0 +1,323 @@
+<session jtag_chain="USB-Blaster [USB-1]" jtag_device="@1: EP3C(10|5)/EP4CE(10|6) (0x020F10DD)" sof_file="top.sof">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <multi attribute="frame size" size="2" value="1920,1017"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <multi attribute="jtag widget size" size="2" value="320,120"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget height" value="107"/>
+  </global_info>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130944"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2021/04/12 17:58:06  #0">
+      <clock name="clk" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="no" trigger_in_node="adc_clk" trigger_in_tap_mode="classic" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="data_out[0]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[1]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[2]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[3]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[4]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[5]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[6]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[7]" tap_mode="classic" type="bidir pin"/>
+          <wire name="send" tap_mode="classic" type="register"/>
+          <wire name="start" tap_mode="classic" type="register"/>
+          <wire name="txe" tap_mode="classic" type="input pin"/>
+          <wire name="wr" tap_mode="classic" type="output pin"/>
+          <wire name="x_in[0]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[10]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[11]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[12]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[13]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[14]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[15]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[1]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[2]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[3]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[4]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[5]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[6]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[7]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[8]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[9]" tap_mode="classic" type="input pin"/>
+          <wire name="x_inner[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[9]" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="data_out[0]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[1]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[2]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[3]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[4]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[5]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[6]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[7]" tap_mode="classic" type="bidir pin"/>
+          <wire name="send" tap_mode="classic" type="register"/>
+          <wire name="start" tap_mode="classic" type="register"/>
+          <wire name="txe" tap_mode="classic" type="input pin"/>
+          <wire name="wr" tap_mode="classic" type="output pin"/>
+          <wire name="x_in[0]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[10]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[11]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[12]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[13]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[14]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[15]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[1]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[2]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[3]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[4]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[5]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[6]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[7]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[8]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[9]" tap_mode="classic" type="input pin"/>
+          <wire name="x_inner[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[9]" tap_mode="classic" type="combinatorial"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="data_out[0]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[1]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[2]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[3]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[4]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[5]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[6]" tap_mode="classic" type="bidir pin"/>
+          <wire name="data_out[7]" tap_mode="classic" type="bidir pin"/>
+          <wire name="send" tap_mode="classic" type="register"/>
+          <wire name="start" tap_mode="classic" type="register"/>
+          <wire name="txe" tap_mode="classic" type="input pin"/>
+          <wire name="wr" tap_mode="classic" type="output pin"/>
+          <wire name="x_in[0]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[10]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[11]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[12]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[13]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[14]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[15]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[1]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[2]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[3]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[4]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[5]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[6]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[7]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[8]" tap_mode="classic" type="input pin"/>
+          <wire name="x_in[9]" tap_mode="classic" type="input pin"/>
+          <wire name="x_inner[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="x_inner[9]" tap_mode="classic" type="combinatorial"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="x_inner" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="x_inner[15]"/>
+            <net is_signal_inverted="no" name="x_inner[14]"/>
+            <net is_signal_inverted="no" name="x_inner[13]"/>
+            <net is_signal_inverted="no" name="x_inner[12]"/>
+            <net is_signal_inverted="no" name="x_inner[11]"/>
+            <net is_signal_inverted="no" name="x_inner[10]"/>
+            <net is_signal_inverted="no" name="x_inner[9]"/>
+            <net is_signal_inverted="no" name="x_inner[8]"/>
+            <net is_signal_inverted="no" name="x_inner[7]"/>
+            <net is_signal_inverted="no" name="x_inner[6]"/>
+            <net is_signal_inverted="no" name="x_inner[5]"/>
+            <net is_signal_inverted="no" name="x_inner[4]"/>
+            <net is_signal_inverted="no" name="x_inner[3]"/>
+            <net is_signal_inverted="no" name="x_inner[2]"/>
+            <net is_signal_inverted="no" name="x_inner[1]"/>
+            <net is_signal_inverted="no" name="x_inner[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="x_in" order="msb_to_lsb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="x_in[15]"/>
+            <net is_signal_inverted="no" name="x_in[14]"/>
+            <net is_signal_inverted="no" name="x_in[13]"/>
+            <net is_signal_inverted="no" name="x_in[12]"/>
+            <net is_signal_inverted="no" name="x_in[11]"/>
+            <net is_signal_inverted="no" name="x_in[10]"/>
+            <net is_signal_inverted="no" name="x_in[9]"/>
+            <net is_signal_inverted="no" name="x_in[8]"/>
+            <net is_signal_inverted="no" name="x_in[7]"/>
+            <net is_signal_inverted="no" name="x_in[6]"/>
+            <net is_signal_inverted="no" name="x_in[5]"/>
+            <net is_signal_inverted="no" name="x_in[4]"/>
+            <net is_signal_inverted="no" name="x_in[3]"/>
+            <net is_signal_inverted="no" name="x_in[2]"/>
+            <net is_signal_inverted="no" name="x_in[1]"/>
+            <net is_signal_inverted="no" name="x_in[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="start"/>
+          <net is_signal_inverted="no" name="txe"/>
+          <net is_signal_inverted="no" name="wr"/>
+          <net is_signal_inverted="no" name="data_out[0]"/>
+          <net is_signal_inverted="no" name="data_out[1]"/>
+          <net is_signal_inverted="no" name="data_out[2]"/>
+          <net is_signal_inverted="no" name="data_out[3]"/>
+          <net is_signal_inverted="no" name="data_out[4]"/>
+          <net is_signal_inverted="no" name="data_out[5]"/>
+          <net is_signal_inverted="no" name="data_out[6]"/>
+          <net is_signal_inverted="no" name="data_out[7]"/>
+          <net is_signal_inverted="no" name="send"/>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="x_inner" order="msb_to_lsb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="x_inner[15]"/>
+            <net is_signal_inverted="no" name="x_inner[14]"/>
+            <net is_signal_inverted="no" name="x_inner[13]"/>
+            <net is_signal_inverted="no" name="x_inner[12]"/>
+            <net is_signal_inverted="no" name="x_inner[11]"/>
+            <net is_signal_inverted="no" name="x_inner[10]"/>
+            <net is_signal_inverted="no" name="x_inner[9]"/>
+            <net is_signal_inverted="no" name="x_inner[8]"/>
+            <net is_signal_inverted="no" name="x_inner[7]"/>
+            <net is_signal_inverted="no" name="x_inner[6]"/>
+            <net is_signal_inverted="no" name="x_inner[5]"/>
+            <net is_signal_inverted="no" name="x_inner[4]"/>
+            <net is_signal_inverted="no" name="x_inner[3]"/>
+            <net is_signal_inverted="no" name="x_inner[2]"/>
+            <net is_signal_inverted="no" name="x_inner[1]"/>
+            <net is_signal_inverted="no" name="x_inner[0]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="x_in" order="msb_to_lsb" radix="hex" state="collapse" type="input pin">
+            <net is_signal_inverted="no" name="x_in[15]"/>
+            <net is_signal_inverted="no" name="x_in[14]"/>
+            <net is_signal_inverted="no" name="x_in[13]"/>
+            <net is_signal_inverted="no" name="x_in[12]"/>
+            <net is_signal_inverted="no" name="x_in[11]"/>
+            <net is_signal_inverted="no" name="x_in[10]"/>
+            <net is_signal_inverted="no" name="x_in[9]"/>
+            <net is_signal_inverted="no" name="x_in[8]"/>
+            <net is_signal_inverted="no" name="x_in[7]"/>
+            <net is_signal_inverted="no" name="x_in[6]"/>
+            <net is_signal_inverted="no" name="x_in[5]"/>
+            <net is_signal_inverted="no" name="x_in[4]"/>
+            <net is_signal_inverted="no" name="x_in[3]"/>
+            <net is_signal_inverted="no" name="x_in[2]"/>
+            <net is_signal_inverted="no" name="x_in[1]"/>
+            <net is_signal_inverted="no" name="x_in[0]"/>
+          </bus>
+          <net is_signal_inverted="no" name="start"/>
+          <net is_signal_inverted="no" name="txe"/>
+          <net is_signal_inverted="no" name="wr"/>
+          <net is_signal_inverted="no" name="data_out[0]"/>
+          <net is_signal_inverted="no" name="data_out[1]"/>
+          <net is_signal_inverted="no" name="data_out[2]"/>
+          <net is_signal_inverted="no" name="data_out[3]"/>
+          <net is_signal_inverted="no" name="data_out[4]"/>
+          <net is_signal_inverted="no" name="data_out[5]"/>
+          <net is_signal_inverted="no" name="data_out[6]"/>
+          <net is_signal_inverted="no" name="data_out[7]"/>
+          <net is_signal_inverted="no" name="send"/>
+        </setup_view>
+      </presentation>
+      <trigger CRC="239852AD" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2021/04/12 17:58:06  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="falling edge" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+          <level enabled="yes" name="condition2" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+          <level enabled="yes" name="condition3" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000000000000000000000000000000
+            <pwr_up_transitional>00000000000000000000000000000000000000000000</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2021/04/12 18:04:16  #0" power_up_mode="false" sample_depth="128" trigger_position="16">0000000000010011001000001011001100110010011100000000000100110011000000110011001100100111000000000001001100111000011100110011001001110000000000010011001110001011001100110010011100000000000110110010100010110011001100100111000000000001101100110101001100110011001001110000000000010011001111101011001100110010011100000000000110110010100000110011001100100111000000000001001100100100101100110011001001110000000000010011001000000011001100110010011100000000000100110010001100110011001100100111000000000001101100110011101100110011001001110000000000010011001111111101001100110010011100000000000110110011101010110011001100100111000000000001001100101111001100110011001001110000000000010011001100010011001100110010011100000000000100110011100110110011001100100111000000000001001100111011101100110011001001110000000000011011001010011101001100110010011100000000000110110011010110110011001100100111000000000001101100111100101100110011001001110000000000010011001111011011001100110010011100000000000100110011100001110011001100100111000000000001001100111010001100110011001001110000000000010011001110100011001100110010011100000000000100110011100001110011001100100111000000000001101100101010101100110011001001110000000000010011001001000011001100110010011100000000000110110010001100110011001100100111000000000001001100110110101100110011001001110000000000011011001110101011001100110010011100000000000110110010111010110011001100100111000000000001101100100111001100110011001001110000000000011011001101000111001100110010011100000000000110110011110010110011001100100111000000000001101100101110101100110011001001110000000000010011001101000111001100110010011100000000000110110011101010110011001100100111000000000001001100111101101100110011001001110000000000010011001110101011001100110010011100000000000100110010100010110011001100100111000000000001001100100000011100110011001001110000000000010011001000110011001100110010011100000000000110110011000001110011001100100111000000000001101100101110001100110011001001110000000000011011001001101011001100110010011100000000000100110011011010110011001100100111000000000001001100101010001100110011001001110000000000010011001100011011001100110010011100000000000110110010101100110011001100100111000000000001001100100101101100110011001001110000000000011011001100110011001100110010011100000000000100110010110001110011001100100111000000000001001100110001001100110011001001110000000000011011001110011011001100110010011100000000000110110010110000110011001100100111000000000001001100100110101100110011001001110000000000011011001100001011001100110010011100000000000110110010110111010011001100100111000000000001101100100101101100110011001001110000000000010011001001111101001100110010011100000000000100110010001010110011001100100111000000000001001100110010001100110011001001110000000000011011001010001011001100110010011100000000000110110010011100110011001100100111000000000001001100100110110100110011001001110000000000010011001000001011001100110010011100000000010110110010000101111011001000010111000000000101101100100101001110110010000101110000000000010011001001100111101100100001011100000000000110110011001100111011001000010111000000000001101100111100001110110010000101110000000000010011001111111011101100100001011100000000000110110011101100111011001000010111000000000001001100101101001110110010000101110000000000010011001000010111101100100001011100000000000100110011000010111011001000010111000000000001001100111011101110110010000101110000000000010011001010100111101100100001011100000000000100110011000001111011001000010111000000000001001100101010011110110010000101110000000000011011001100001111101100100001011100000000000110110010111110111011001000010111000000000001001100100101101110110010000101110000000000011011001000001111101100100001011100000000000100110010010011111011001000010111000000000001101100100001000110110010000101110000000000010011001001110111101100100001011100000000000100110011001111111011001000010111000000000001101100111010111110110010000101110000000000011011001011001111101100100001011100000000000110110010011000011011001000010111000000000001101100100110111110110010000101110000000000011011001101001111101100100001011100000000000100110011111100011011001000010111000000000001101100111000000110110010000101110000000000011011001011011111101100100001011100000000000100110011010000011011001000010111000000000001101100101001111110110010000101110000000000010011001001010001101100100001011100000000000100110011000010011011001000010111000000000001101100101001111110110010000101110000000000011011001001110001101100100001011100000000000100110011011100011011001000010111000000000001001100111000111110110010000101110000000000010011001110111001101100100001011100000000000100110010100010011011001000010111000000000001001100110011011110110010000101110000000000011011001110111111101100100001011100000000000100110010111000011011001000010111000000000001001100100001011110110010000101110000000000011011001100111111101100100001011100000000000100110010110111111011001000010111000000000001101100100010111110110010000101110000000000010011001101011111101100100001011100000000000100110010100011111011001000010111000000000001101100110001011110110010000101110000000000010011001111101111101100100001011100000000000100110011101001111011001000010111000000000001001100101010111110110010000101110000000000010011001100000001101100100001011100000000000100110011101110111011001000010111000000000001001100111001101110110010000101110000000000011011001010001111101100100001011100000000000110110011011011111011001000010111000000000001001100111111001110110010000101110000000000011011001110001111101100100001011100000000000100110010110100111011001000010111</data>
+          <extradata>1111111111111111T111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+</session>

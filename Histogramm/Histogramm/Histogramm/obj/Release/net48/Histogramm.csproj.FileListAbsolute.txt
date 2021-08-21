@@ -1,0 +1,13 @@
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.csprojAssemblyReference.cache
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.Form1.resources
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.csproj.GenerateResource.cache
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.AssemblyInfoInputs.cache
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.AssemblyInfo.cs
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.csproj.CoreCompileInputs.cache
+E:\VKRproj\Histogramm\Histogramm\Histogramm\bin\Release\net48\Histogramm.exe.config
+E:\VKRproj\Histogramm\Histogramm\Histogramm\bin\Release\net48\Histogramm.exe
+E:\VKRproj\Histogramm\Histogramm\Histogramm\bin\Release\net48\Histogramm.pdb
+E:\VKRproj\Histogramm\Histogramm\Histogramm\bin\Release\net48\System.IO.Ports.dll
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.csproj.CopyComplete
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.exe
+E:\VKRproj\Histogramm\Histogramm\Histogramm\obj\Release\net48\Histogramm.pdb

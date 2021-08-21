@@ -1,0 +1,27 @@
+
+State Machine - |top|Receive_Start_via_USB:recv_start|state
+Name state.start state.stop state.get_data 
+state.start 0 0 0 
+state.get_data 1 0 1 
+state.stop 1 1 0 
+
+State Machine - |top|measure_pulse_height:meas|state
+Name state.Start state.Search_right_edge state.Search_left_edge 
+state.Start 0 0 0 
+state.Search_left_edge 1 0 1 
+state.Search_right_edge 1 1 0 
+
+State Machine - |top|trapezoidal_filter:filter|state
+Name state.WaitForNextX state.WaitConversionX state.WaitConversionY state.WaitAddY state.WaitAddC state.WaitMulC state.WaitAddAtoB state.WaitAddZezofromX state.WaitSubKfromX state.WaitSubLfromX state.StartSubLfromX state.Start 
+state.Start 0 0 0 0 0 0 0 0 0 0 0 0 
+state.StartSubLfromX 0 0 0 0 0 0 0 0 0 0 1 1 
+state.WaitSubLfromX 0 0 0 0 0 0 0 0 0 1 0 1 
+state.WaitSubKfromX 0 0 0 0 0 0 0 0 1 0 0 1 
+state.WaitAddZezofromX 0 0 0 0 0 0 0 1 0 0 0 1 
+state.WaitAddAtoB 0 0 0 0 0 0 1 0 0 0 0 1 
+state.WaitMulC 0 0 0 0 0 1 0 0 0 0 0 1 
+state.WaitAddC 0 0 0 0 1 0 0 0 0 0 0 1 
+state.WaitAddY 0 0 0 1 0 0 0 0 0 0 0 1 
+state.WaitConversionY 0 0 1 0 0 0 0 0 0 0 0 1 
+state.WaitConversionX 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WaitForNextX 1 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,4 @@
+|trapezoidal_filter
+clk => ~NO_FANOUT~
+
+

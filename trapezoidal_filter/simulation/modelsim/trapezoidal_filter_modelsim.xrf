@@ -1,0 +1,5 @@
+vendor_name = ModelSim
+source_file = 1, E:/VKRproj/trapezoidal_filter/trapezoidal_filter.sv
+source_file = 1, E:/VKRproj/trapezoidal_filter/db/trapezoidal_filter.cbx.xml
+design_name = trapezoidal_filter
+instance = comp, \clk~input , clk~input, trapezoidal_filter, 1

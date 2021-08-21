@@ -1,0 +1,49 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do top_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/VKRproj/top/Float32LibRtlSrc {E:/VKRproj/top/Float32LibRtlSrc/Float32Mul.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module Float32Mul
+# 
+# Top level modules:
+# 	Float32Mul
+# vlog -vlog01compat -work work +incdir+E:/VKRproj/top/Float32LibRtlSrc {E:/VKRproj/top/Float32LibRtlSrc/Float32Add.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module Float32Add
+# 
+# Top level modules:
+# 	Float32Add
+# vlog -vlog01compat -work work +incdir+E:/VKRproj/top {E:/VKRproj/top/float_to_int_converter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module float_to_int_converter_altbarrel_shift_puf
+# -- Compiling module float_to_int_converter_altfp_convert_c0n
+# -- Compiling module float_to_int_converter
+# 
+# Top level modules:
+# 	float_to_int_converter
+# vlog -vlog01compat -work work +incdir+E:/VKRproj/top {E:/VKRproj/top/int_to_float_converter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module int_to_float_converter_altbarrel_shift_kuf
+# -- Compiling module int_to_float_converter_altpriority_encoder_3e8
+# -- Compiling module int_to_float_converter_altpriority_encoder_6e8
+# -- Compiling module int_to_float_converter_altpriority_encoder_be8
+# -- Compiling module int_to_float_converter_altpriority_encoder_rf8
+# -- Compiling module int_to_float_converter_altpriority_encoder_3v7
+# -- Compiling module int_to_float_converter_altpriority_encoder_6v7
+# -- Compiling module int_to_float_converter_altpriority_encoder_bv7
+# -- Compiling module int_to_float_converter_altpriority_encoder_r08
+# -- Compiling module int_to_float_converter_altpriority_encoder_qb6
+# -- Compiling module int_to_float_converter_altfp_convert_c0n
+# -- Compiling module int_to_float_converter
+# 
+# Top level modules:
+# 	int_to_float_converter
